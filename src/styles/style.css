@@ -137,3 +137,100 @@
     }
 }
 
+@media screen and (min-width: 1200px) { 
+
+  /* global */
+  p {
+    max-width: 600px;
+    word-wrap: break-word;
+  }
+
+  header {
+    padding-top: 50px;
+  }
+
+  #logo {
+    width: 240px;
+  }
+
+  nav {
+    padding-top: 20px;
+  }
+
+  #nav-btn {
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 1.2em;
+  }
+
+  /* main */
+
+  .title {
+    font-size: 2.8em;
+  }
+
+  .section-1__container {
+    margin-top: 120px;
+  }
+
+  .section-1__container p{
+    font-size: 1.2em;
+  }
+
+  .cta {
+    padding: 20px 60px;
+    font-size: 0.95em;
+  }
+
+  #screen-mockups {
+    max-width: 90%;
+  }
+
+  .content-icon {
+    width: 58px;
+  }
+
+  .content__count {
+    font-size: 4.2em;
+  }
+
+  .content__text {
+    font-size: 1.2em;
+  }
+
+  .section-2__container {
+    margin-bottom: 6.5em;
+  }
+
+  .feature-section__content h2 {
+    font-size: 2em;
+  }
+
+  .feature__text {
+    font-size: 1em;
+  }
+
+  #feature-section, #feature-section-1, #feature-section-2 {
+    padding: 50px 0;
+  }
+
+  #start-section {
+    padding-top: 100px;
+  }
+
+  .start-section__container h2 {
+    font-size: 2em;
+  }
+
+  .about-us p, .contact p {
+    font-size: 1em;
+  }
+
+  .newsletter__text h3 {
+    font-size: 1.5em;
+  }
+
+  .newsletter__text p {
+    font-size: 1em;
+  }
+}

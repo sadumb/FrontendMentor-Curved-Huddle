@@ -98,9 +98,9 @@ body {
 
 #nav-btn {
   padding: 10px 20px;
-  border: 1px solid var(--very-dark-cyan);
+  border: 1px solid var(--pink);
   border-radius: 20px;
-  color: var(--very-dark-cyan);
+  color: var(--pink);
   background-color: #fff;
 }
 
