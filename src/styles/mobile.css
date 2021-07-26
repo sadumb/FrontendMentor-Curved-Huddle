@@ -45,6 +45,10 @@ input:hover {
   text-align: center;
 }
 
+.anim {
+  opacity: 0;
+}
+
 @keyframes anim-to-top {
   from {
     transform: translateY(100px);
