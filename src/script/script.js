@@ -12,9 +12,6 @@ observer = new IntersectionObserver((entries) => {
         else if (entry.intersectionRatio > 0 && entry.target.className.includes('to-left')) {
             entry.target.style.animation = 'anim-to-left 1.5s forwards ease-out';
         }
-        else {
-            entry.target.style.animation = `none`
-        }
     })
 
 })
